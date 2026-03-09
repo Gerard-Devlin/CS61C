@@ -17,7 +17,7 @@ This course puts all its labs on a seperate repository.
 
 - Labs: contains 11 labs , I put it in an [independent repository](https://github.com/PKUFlyingPig/CS61C-labs)
 
-  - [ ] Lab01: C basics
+  - [x] Lab01: C basics
   - [ ] Lab02: Advanced C
   - [ ] Lab03: RISC-V basics  
   - [ ] Lab04: RISC-V functions
