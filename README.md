@@ -15,7 +15,7 @@ repository structure is as follows :
 
 This course puts all its labs on a seperate repository. 
 
-- Labs: contains 11 labs , I put it in an [independent repository](https://github.com/PKUFlyingPig/CS61C-labs)
+- Labs: contains 11 labs , I put it in an [independent repository](https://github.com/Gerard-Devlin/CS61C/tree/main/CS61C-Assignment-FA20/Lab)
 
   - [x] Lab01: C basics
   - [ ] Lab02: Advanced C

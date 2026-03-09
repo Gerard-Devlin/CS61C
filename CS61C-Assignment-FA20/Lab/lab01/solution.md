@@ -5,6 +5,8 @@
 #define V2 3
 #define V3 3
 ```
+---
+
 ## ex2
 ```bash
 gcc -g -o hello hello.c
@@ -23,12 +25,16 @@ gdb hello
 9. quit
 ```
 
+---
+
 ## ex3
 
 ```bash
 gcc -g -o int_hello interactive_hello.c
 int_hello < name.txt
 ```
+---
+
 
 ## ex4
 
@@ -36,6 +42,8 @@ int_hello < name.txt
 gcc -o segfault_ex segfault_ex.c
 gcc -o no_segfault_ex no_segfault_ex.c
 ```
+
+---
 
 ## ex5
 
