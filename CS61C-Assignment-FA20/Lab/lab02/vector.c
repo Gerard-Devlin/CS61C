@@ -1,6 +1,6 @@
 /* Include the system headers we need */
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /* Include our header */
 #include "vector.h"
@@ -60,8 +60,8 @@ vector_t *vector_new() {
     /* First, we need to allocate memory on the heap for the struct */
     retval = /* YOUR CODE HERE */
 
-    /* Check our return value to make sure we got memory */
-    if (/* YOUR CODE HERE */) {
+        /* Check our return value to make sure we got memory */
+        if (/* YOUR CODE HERE */) {
         allocation_failed();
     }
 
@@ -73,7 +73,7 @@ vector_t *vector_new() {
 
     /* Check the data attribute of our vector to make sure we got memory */
     if (/* YOUR CODE HERE */) {
-        free(retval);				//Why is this line necessary?
+        free(retval); // Why is this line necessary?
         allocation_failed();
     }
 
@@ -88,7 +88,7 @@ vector_t *vector_new() {
 int vector_get(vector_t *v, size_t loc) {
 
     /* If we are passed a NULL pointer for our vector, complain about it and exit. */
-    if(v == NULL) {
+    if (v == NULL) {
         fprintf(stderr, "vector_get: passed a NULL vector.\n");
         abort();
     }
@@ -105,9 +105,7 @@ int vector_get(vector_t *v, size_t loc) {
 
 /* Free up the memory allocated for the passed vector.
    Remember, you need to free up ALL the memory that was allocated. */
-void vector_delete(vector_t *v) {
-    /* YOUR SOLUTION HERE */
-}
+void vector_delete(vector_t *v) { /* YOUR SOLUTION HERE */ }
 
 /* Set a value in the vector. If the extra memory allocation fails, call
    allocation_failed(). */
